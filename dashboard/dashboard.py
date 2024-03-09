@@ -92,10 +92,6 @@ def plot_linechart(state_data=None):
     if state_data is not None:
         plt.figure(figsize=(15,9))
         sns.lineplot(data=state_data, x='year_month', y='revenue', marker='o', color='black', markerfacecolor='black', markersize=7, label=state_data['state'].unique()[0])
-        plt.title('REVENUE TREND')
-        plt.ylabel('REVENUE')
-        plt.xlabel('YEAR-MONTH')
-        plt.grid(True)
     else:
         print("State data is None")  # Debug statement
         plt.figure(figsize=(15,9))
@@ -104,6 +100,8 @@ def plot_linechart(state_data=None):
         sns.lineplot(data=monthly_revenue_MG, x='year_month', y='revenue', marker='o', color='green', markerfacecolor='green', markersize=7, label='MG')
         sns.lineplot(data=monthly_revenue_RS, x='year_month', y='revenue', marker='o', color='red', markerfacecolor='red', markersize=7, label='RS')
         sns.lineplot(data=monthly_revenue_PR, x='year_month', y='revenue', marker='o', color='orange', markerfacecolor='orange', markersize=7, label='PR')
+
+    # Adjusting labels and title
         plt.title('REVENUE TREND')
         plt.ylabel('REVENUE')
         plt.xlabel('YEAR-MONTH')
