@@ -368,3 +368,4 @@ plt.legend(title='State')
 plt.text(10000, 26500, f'Correlation: {correlation_top_5_states:.3f}', fontsize=9, color='blue')
 st.pyplot(plt)
 
+st.caption("© Rm Bagus Anindito Satrio Utomo / m312d4ky2879")
