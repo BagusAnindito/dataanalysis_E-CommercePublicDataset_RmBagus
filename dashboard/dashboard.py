@@ -16,9 +16,9 @@ st.write("2. Tren pendapatan produk tiap State")
 st.write("3. Korelasi antara jumlah order dan jumlah produk terjual terhadap State")
 
 #Load data
-data1 = pd.read_csv("https://github.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/blob/main/dashboard/main_data.csv")
-data2 = pd.read_csv("https://github.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/blob/main/dashboard/rev_state.csv")
-data3 = pd.read_csv("https://github.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/blob/main/dashboard/rev_prod.csv")
+data1 = pd.read_csv("https://raw.githubusercontent.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/main/dashboard/main_data.csv"))
+data2 = pd.read_csv("https://raw.githubusercontent.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/main/dashboard/rev_state.csv"))
+data3 = pd.read_csv("https://raw.githubusercontent.com/BagusAnindito/dataanalysis_E-CommercePublicDataset_RmBagus/main/dashboard/rev_prod.csv")
 
 #Space
 st.header("")
