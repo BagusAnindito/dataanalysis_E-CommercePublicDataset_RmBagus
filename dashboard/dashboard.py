@@ -5,9 +5,6 @@ import seaborn as sns
 import streamlit as st
 import numpy as np
 
-#Dissable warning
-st.set_option('deprecation.showPyplotGlobalUse', False)
-
 #Title and introduction 
 st.title('Proyek Analisis Data: E-Commerce Public Dataset 🌍')
 st.write("Dasboard ini akan menampilkan data:")
